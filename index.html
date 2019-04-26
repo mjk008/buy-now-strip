@@ -24,6 +24,22 @@
   button:hover{
       color:yellow;
   }
+  #submit-form input{
+     font-family: poppins;
+     border-color: #66c2ff;
+     background: white;
+  }
+#submit-form input:hover{
+transition-duration: 1s;
+background:yellow;
+font-color: white;
+}
+#forms{
+    position: relative;
+    align-content: center;
+    padding-left: 15%;
+    letter-spacing: 4em;
+}
   </style>
   
   
@@ -46,35 +62,21 @@
         </div>
     </div>
 </section>
-
-<section class="mbr-section--bg-adapted mbr-section--relative" id="form3-e" data-rv-view="73" style="background-color: rgb(255, 255, 255);">
-    <div class="elements-content bg-dark subscribe-elt" style="padding-top: 0px; padding-bottom: 0px;">
-        
-        <div class="container">
-            
-            <div class="col-md-5" data-form-type="formoid">
-                <div data-form-alert="true">
-                    <div class="hide" data-form-alert-success="true">Thanks for filling out form!</div>
-                </div>
-                <form class="intro-newsletter" action="#" method="post" data-form-title="SUBSCRIBE TO OUR NEWSLETTER">   
-                    <input data-aos="zoom-in-down" type="email" name="email" required="" placeholder="check availability" data-form-field="Email">
+<section data-aos="zoom-in-down" id="forms">
+    <form action="" id="submit-form">
+<input style="height:50px; width: 200px; border-radius: 5px;" type="text" placeholder="    Enter Your Pin"> 
+<input style="height:50px; width: 200px; border-radius: 5px" type="button" value="Check Availability"> 
+<select style="height:50px; width: 200px; border-radius: 5px">
+    <option value="Red"> Red </option>
+    <option value="Green"> Green </option>
+    <option value="Blue"> Blue </option>
+</select>
+<span style="height:40px; border-radius: 5px">
+    <input type="button" value="+"><input style="width:25px" type="text" name="no_of_prod" id="prod" value=0><input type="button" value="-">
+</span>
+<input style="height:40px; width: 200px; border-radius: 5px" type="submit" value="Checkout">
+    </form>
     
-                    <div><button data-aos="zoom-in-down" class="btn mbr-title-font btn-primary btn-block" type="submit">check availability</button></div>
-                </form>
-                </div>
-            <div class="col-md-5" data-form-type="formoid">
-            <div data-form-alert="true">
-                <div class="hide" data-form-alert-success="true">Thanks for filling out form!</div>
-            </div>
-            <form class="intro-newsletter" action="#" method="post" data-form-title="SUBSCRIBE TO OUR NEWSLETTER">
-
-
-                <div><button data-aos="zoom-in-down" class="btn mbr-title-font btn-primary btn-block" type="submit">BUY NOW</button></div>
-            </form>
-            </div>
-            </div>
-        </div>
-    </div>
 </section>
 
 <section class="mbr-section--bg-adapted" id="header8-5" data-rv-view="40" style="background-color: rgb(255, 255, 255);">
